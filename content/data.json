@@ -1,113 +1,8 @@
 {
   "nav": {
-    "logo_text": "Elevra AI",
+    "logo_text": "Elevra",
     "cta_text": "Book Free Demo",
     "cta_link": "#book"
-  },
-  "hero": {
-    "tag_text": "AI Lead Response System",
-    "eyebrow_text": "A prospect just called. Nobody answered.",
-    "headline_prefix": "This just cost you",
-    "headline_highlight": "$15,000.",
-    "subheadline": "Every. Single. Time.",
-    "body_html": "<strong>The first to answer wins the client. Every time.</strong><br>Our AI calls every new lead in under 30 seconds — automatically, 24 hours a day, 7 days a week. While you sleep, we close.",
-    "bullets": [
-      { "bullet_text": "Never miss a high-value lead again" },
-      { "bullet_text": "AI responds in under 30 seconds — 24/7" },
-      { "bullet_text": "What the top 10% of your industry already have" }
-    ],
-    "cta_text": "Book Your Free Demo — 10 Minutes",
-    "cta_link": "#book",
-    "note_text": "The reason your competitors stopped missing calls.",
-    "phone_missed_count": "3",
-    "phone_time": "9:41",
-    "phone_date": "Monday, 20 July",
-    "phone_notif1_title": "Missed Call — Unknown",
-    "phone_notif1_body": "Potential client • Tap to call back",
-    "phone_notif2_title": "Missed Call — Unknown",
-    "phone_notif2_body": "Went to voicemail",
-    "phone_notif3_quote": "\"Hi, I was looking for a broker...\"",
-    "phone_notif3_footer": "They called your competitor instead."
-  },
-  "trust_bar": {
-    "stats": [
-      { "number": "30s", "label": "Average response time" },
-      { "number": "391%", "label": "Higher close rate vs 1hr response" },
-      { "number": "24/7", "label": "Automated lead response" },
-      { "number": "$0", "label": "Missed calls with our system" }
-    ]
-  },
-  "pain_section": {
-    "tag_text": "The problem",
-    "heading_html": "You're losing clients<br>you already paid for",
-    "description_text": "Every lead you generate costs money. When nobody answers fast enough, that investment walks straight to your competitor.",
-    "bad_heading": "❌ Without our system",
-    "bad_items": [
-      { "icon": "😤", "title": "Lead calls at 7pm on a Friday", "body": "You're done for the day. They leave a voicemail. By Monday they've signed with someone else." },
-      { "icon": "📉", "title": "80% drop in contact rate after 5 minutes", "body": "Studies show lead quality drops dramatically with every minute you wait to respond." },
-      { "icon": "💸", "title": "$15,000+ walking out the door", "body": "Each missed call in real estate, law, or lending represents thousands in lost revenue — every single time." },
-      { "icon": "😰", "title": "You're manually chasing every lead", "body": "Calling back, following up, hoping they haven't moved on. It's exhausting and ineffective." }
-    ],
-    "good_heading": "✓ With our AI system",
-    "good_items": [
-      { "icon": "⚡", "title": "Every lead called back in under 30 seconds", "body": "Automatically. Day or night. Weekend or public holiday. Your AI never clocks off." },
-      { "icon": "📅", "title": "Appointments booked while you sleep", "body": "The AI qualifies the lead, answers their questions, and books them straight into your calendar." },
-      { "icon": "💰", "title": "391% higher conversion rate", "body": "Businesses that respond within 60 seconds close at nearly 4x the rate of those that wait an hour." },
-      { "icon": "🏆", "title": "You're always first to answer", "body": "In a market where the first call wins the client — you win. Every time." }
-    ]
-  },
-  "how_it_works": {
-    "tag_text": "How it works",
-    "heading_html": "Set up in 7 days.<br>Running forever.",
-    "description_text": "We handle everything from setup to ongoing support. You just take the calls that are already booked.",
-    "steps": [
-      { "step_number": "01", "title": "Book your free demo", "body": "10 minutes. We show you the system live and answer every question you have — no sales pressure." },
-      { "step_number": "02", "title": "We build your system", "body": "We set up your AI voice agent and website, configured specifically for your industry and business." },
-      { "step_number": "03", "title": "Leads get called instantly", "body": "Every new lead is contacted within 30 seconds, qualified, and booked into your calendar automatically." },
-      { "step_number": "04", "title": "You close more clients", "body": "Show up to pre-qualified booked appointments. No chasing. No missed calls. Just more business." }
-    ]
-  },
-  "who_its_for": {
-    "tag_text": "Who it's for",
-    "heading_html": "Built for professionals<br>where speed means money",
-    "cards": [
-      { "icon": "🏡", "title": "Real Estate Agents", "role": "Agents & Buyers Agents", "body": "In real estate, the agent who calls first gets the listing. Our AI makes sure that's always you — whether it's 9am or 11pm Sunday.", "stat_number": "$24,000+", "stat_label": "average annual commission recovered from missed leads" },
-      { "icon": "🏦", "title": "Mortgage Brokers", "role": "Finance & Lending Professionals", "body": "Borrowers compare multiple brokers simultaneously. Being first to call isn't just an advantage — it's the entire game. We make you first. Every time.", "stat_number": "$12,000+", "stat_label": "average annual trail income recovered" },
-      { "icon": "⚖️", "title": "Lawyers & Law Firms", "role": "Legal Practitioners", "body": "Legal clients are emotional and urgent. When they can't reach you immediately, they call the next firm on Google. Our AI makes sure they reach you first.", "stat_number": "$40,000+", "stat_label": "average annual fee revenue recovered" }
-    ]
-  },
-  "book_demo": {
-    "tag_text": "Book your demo",
-    "heading_html": "See it live in<br>30 minutes",
-    "description_text": "Watch the AI call a real lead in real time. No slides. No pitch deck. Just the system working exactly as it will for your business.",
-    "reassurance_items": [
-      { "value": "Free", "label": "No cost ever" },
-      { "value": "30 min", "label": "Live demo" },
-      { "value": "0", "label": "Obligations" }
-    ],
-    "calendly_url": "https://calendly.com/info-elevraai/30min?hide_gdpr_banner=1&background_color=0f0f0f&text_color=ffffff&primary_color=C9A84C",
-    "footer_note_text": "No obligation. No credit card. The demo is free — the missed calls aren't."
-  },
-  "testimonials": {
-    "tag_text": "Results",
-    "heading_html": "What professionals say<br>after switching",
-    "items": [
-      { "rating": 5, "quote": "I was losing leads every weekend. Within the first week of using this system I booked 4 appointments I would have completely missed. It's paid for itself ten times over.", "initials": "JR", "name": "James R.", "role": "Real Estate Agent, Sydney" },
-      { "rating": 5, "quote": "As a mortgage broker I live and die by speed to lead. This AI calls my leads before I've even seen the notification. My conversion rate has gone up noticeably since day one.", "initials": "SK", "name": "Sarah K.", "role": "Mortgage Broker, Melbourne" },
-      { "rating": 5, "quote": "I was sceptical at first. Now I get booked consultations in my calendar every morning from people who enquired the night before. It genuinely works and it's transformed how we operate.", "initials": "MP", "name": "Michael P.", "role": "Principal Solicitor, Brisbane" }
-    ]
-  },
-  "faq": {
-    "tag_text": "FAQ",
-    "heading_html": "Questions we get asked<br>before every demo",
-    "items": [
-      { "question": "How quickly does the AI respond to a new lead?", "answer": "Under 30 seconds from the moment a lead submits their details on your website. This applies 24 hours a day, 7 days a week including weekends and public holidays." },
-      { "question": "Does it sound like a robot?", "answer": "No. Our AI voice agents are trained to have natural, conversational interactions. Most leads don't realise they're speaking with an AI — they simply experience a fast, professional response." },
-      { "question": "How long does setup take?", "answer": "We have most clients live within 7 days. We handle all the technical setup, configuration, and testing — you don't need any tech knowledge." },
-      { "question": "What does it cost?", "answer": "Pricing is discussed during your free demo once we understand your business and call volume. Most clients find the system pays for itself within the first one or two recovered leads." },
-      { "question": "Do I need a new website?", "answer": "Not necessarily. The AI can integrate with your existing site. However, we also build high-converting websites designed to generate more leads in the first place — ask us about this during your demo." },
-      { "question": "Is there a lock-in contract?", "answer": "No lock-in contracts. We're confident the results speak for themselves — you stay because it works, not because you're obligated to." }
-    ]
   },
   "final_cta": {
     "tag_text": "Ready?",
@@ -117,8 +12,245 @@
     "cta_link": "#book",
     "note_text": "No obligation. No credit card. The demo is free — the missed calls aren't."
   },
+  "trust_bar": {
+    "stats": [
+      {
+        "number": "30s",
+        "label": "Average response time"
+      },
+      {
+        "number": "391%",
+        "label": "Higher close rate vs 1hr response"
+      },
+      {
+        "number": "24/7",
+        "label": "Automated lead response"
+      },
+      {
+        "number": "$0",
+        "label": "Missed calls with our system"
+      }
+    ]
+  },
+  "who_its_for": {
+    "tag_text": "Who it's for",
+    "heading_html": "Built for professionals<br>where speed means money",
+    "cards": [
+      {
+        "icon": "🏡",
+        "title": "Real Estate Agents",
+        "role": "Agents & Buyers Agents",
+        "body": "In real estate, the agent who calls first gets the listing. Our AI makes sure that's always you — whether it's 9am or 11pm Sunday.",
+        "stat_number": "$24,000+",
+        "stat_label": "average annual commission recovered from missed leads"
+      },
+      {
+        "icon": "🏦",
+        "title": "Mortgage Brokers",
+        "role": "Finance & Lending Professionals",
+        "body": "Borrowers compare multiple brokers simultaneously. Being first to call isn't just an advantage — it's the entire game. We make you first. Every time.",
+        "stat_number": "$12,000+",
+        "stat_label": "average annual trail income recovered"
+      },
+      {
+        "icon": "⚖️",
+        "title": "Lawyers & Law Firms",
+        "role": "Legal Practitioners",
+        "body": "Legal clients are emotional and urgent. When they can't reach you immediately, they call the next firm on Google. Our AI makes sure they reach you first.",
+        "stat_number": "$40,000+",
+        "stat_label": "average annual fee revenue recovered"
+      }
+    ]
+  },
+  "testimonials": {
+    "tag_text": "Results",
+    "heading_html": "What professionals say<br>after switching",
+    "items": [
+      {
+        "rating": 5,
+        "quote": "I was losing leads every weekend. Within the first week of using this system I booked 4 appointments I would have completely missed. It's paid for itself ten times over.",
+        "initials": "JR",
+        "name": "James R.",
+        "role": "Real Estate Agent, Sydney"
+      },
+      {
+        "rating": 5,
+        "quote": "As a mortgage broker I live and die by speed to lead. This AI calls my leads before I've even seen the notification. My conversion rate has gone up noticeably since day one.",
+        "initials": "SK",
+        "name": "Sarah K.",
+        "role": "Mortgage Broker, Melbourne"
+      },
+      {
+        "rating": 5,
+        "quote": "I was sceptical at first. Now I get booked consultations in my calendar every morning from people who enquired the night before. It genuinely works and it's transformed how we operate.",
+        "initials": "MP",
+        "name": "Michael P.",
+        "role": "Principal Solicitor, Brisbane"
+      }
+    ]
+  },
+  "faq": {
+    "tag_text": "FAQ",
+    "heading_html": "Questions we get asked<br>before every demo",
+    "items": [
+      {
+        "question": "How quickly does Elevra respond to a new lead?",
+        "answer": "Under 30 seconds from the moment a lead submits their details on your website. This applies 24 hours a day, 7 days a week including weekends and public holidays."
+      },
+      {
+        "question": "Does it sound like a robot?",
+        "answer": "No. Our AI voice agents are trained to have natural, conversational interactions. Most leads don't realise they're speaking with an AI — they simply experience a fast, professional response."
+      },
+      {
+        "question": "How long does setup take?",
+        "answer": "We have most clients live within 7 days. We handle all the technical setup, configuration, and testing — you don't need any tech knowledge."
+      },
+      {
+        "question": "What does it cost?",
+        "answer": "Pricing is discussed during your free demo once we understand your business and call volume. Most clients find the system pays for itself within the first one or two recovered leads."
+      },
+      {
+        "question": "Do I need a new website?",
+        "answer": "Not necessarily. The AI can integrate with your existing site. However, we also build high-converting websites designed to generate more leads in the first place — ask us about this during your demo."
+      },
+      {
+        "question": "Is there a lock-in contract?",
+        "answer": "No lock-in contracts. We're confident the results speak for themselves — you stay because it works, not because you're obligated to."
+      }
+    ]
+  },
+  "book_demo": {
+    "tag_text": "Book My Free Demo — 10 Minutes",
+    "heading_html": "See it live in<br>10 minutes",
+    "description_text": "Watch Elevra call a real lead in real time. No slides. No pitch deck. Just the system working exactly as it will for your business.",
+    "reassurance_items": [
+      {
+        "value": "Free",
+        "label": "No cost ever"
+      },
+      {
+        "value": "10 min",
+        "label": "Live demo"
+      },
+      {
+        "value": "0",
+        "label": "Obligations"
+      }
+    ],
+    "calendly_url": "https://calendly.com/info-elevraai/30min?hide_gdpr_banner=1&background_color=0f0f0f&text_color=ffffff&primary_color=C9A84C",
+    "footer_note_text": "No obligation. No credit card. The demo is free — the missed calls aren't."
+  },
+  "hero": {
+    "eyebrow_text": "A prospect just called. Nobody answered.",
+    "phone_notif3_footer": "They called your competitor instead.",
+    "body_html": "<strong>The first to answer wins the client. Every time.</strong><br>Our AI calls every new lead in under 30 seconds — automatically, 24 hours a day, 7 days a week. While you sleep, we close.",
+    "headline_highlight": "$15,000.",
+    "cta_link": "#book",
+    "phone_notif1_title": "Missed Call — Unknown",
+    "phone_notif2_title": "Missed Call — Unknown",
+    "phone_notif2_body": "Went to voicemail",
+    "phone_notif1_body": "Potential client • Tap to call back",
+    "phone_notif3_quote": "\"Hi, I was looking for a broker...\"",
+    "bullets": [
+      {
+        "bullet_text": "Never miss a high-value lead again"
+      },
+      {
+        "bullet_text": "Elevra responds in under 30 seconds — 24/7, 365 Days a Year"
+      },
+      {
+        "bullet_text": "What the top 10% of your industry already have"
+      }
+    ],
+    "tag_text": "Lead Response System",
+    "subheadline": "Every. Single. Time.",
+    "note_text": "The reason your competitors stopped missing calls.",
+    "phone_missed_count": "3",
+    "cta_text": "Book Your Free Demo",
+    "headline_prefix": "This just cost you",
+    "phone_time": "9:41",
+    "phone_date": "Monday, 20 July"
+  },
   "footer": {
-    "logo_text": "Elevra AI",
+    "logo_text": "Elevra",
     "copyright_text": "© 2026 · Sydney, Australia · All rights reserved"
+  },
+  "pain_section": {
+    "tag_text": "The problem",
+    "heading_html": "You're losing clients<br>you already paid for",
+    "description_text": "Every lead you generate costs money. When nobody answers fast enough, that investment walks straight to your competitor.",
+    "bad_heading": "❌ Without our system",
+    "bad_items": [
+      {
+        "icon": "😤",
+        "title": "Lead calls at 7pm on a Friday",
+        "body": "You're done for the day. They leave a voicemail. By Monday they've signed with someone else."
+      },
+      {
+        "icon": "📉",
+        "title": "80% drop in contact rate after 5 minutes",
+        "body": "Studies show lead quality drops dramatically with every minute you wait to respond."
+      },
+      {
+        "icon": "💸",
+        "title": "$15,000+ walking out the door",
+        "body": "Each missed call in real estate, law, or lending represents thousands in lost revenue — every single time."
+      },
+      {
+        "icon": "😰",
+        "title": "You're manually chasing every lead",
+        "body": "Calling back, following up, hoping they haven't moved on. It's exhausting and ineffective."
+      }
+    ],
+    "good_heading": "✓ With our system",
+    "good_items": [
+      {
+        "icon": "⚡",
+        "title": "Every lead called back in under 30 seconds",
+        "body": "Automatically. Day or night. Weekend or public holiday. Your AI never clocks off."
+      },
+      {
+        "icon": "📅",
+        "title": "Appointments booked while you sleep",
+        "body": "The AI qualifies the lead, answers their questions, and books them straight into your calendar."
+      },
+      {
+        "icon": "💰",
+        "title": "391% higher conversion rate",
+        "body": "Businesses that respond within 60 seconds close at nearly 4x the rate of those that wait an hour."
+      },
+      {
+        "icon": "🏆",
+        "title": "You're always first to answer",
+        "body": "In a market where the first call wins the client — you win. Every time."
+      }
+    ]
+  },
+  "how_it_works": {
+    "tag_text": "How it works",
+    "heading_html": "Set up in 7 days.<br>Running forever.",
+    "description_text": "We handle everything from setup to ongoing support. You just take the calls that are already booked.",
+    "steps": [
+      {
+        "step_number": "01",
+        "title": "Book your free demo",
+        "body": "10 minutes. We show you the system live and answer every question you have — no sales pressure."
+      },
+      {
+        "step_number": "02",
+        "title": "We build your system",
+        "body": "We set up your AI voice agent and website, configured specifically for your industry and business."
+      },
+      {
+        "step_number": "03",
+        "title": "Leads get called instantly",
+        "body": "Every new lead is contacted within 30 seconds, qualified, and booked into your calendar automatically."
+      },
+      {
+        "step_number": "04",
+        "title": "You close more clients",
+        "body": "Show up to pre-qualified booked appointments. No chasing. No missed calls. Just more business."
+      }
+    ]
   }
 }
