@@ -1,0 +1,198 @@
+# ─────────────────────────────────────────────────────────
+# BACKEND — replace the block below with the exact snippet
+# shown in your DecapBridge dashboard after you connect this
+# repo (Settings > your site > "Setup instructions"). It will
+# look like this, but with your own repo name:
+#
+# backend:
+#   name: github
+#   repo: your-github-username/your-repo-name
+#   branch: main
+#   base_url: https://api.decapbridge.com
+#   auth_endpoint: api/v1/auth/decap
+#
+# See README.md for the full walkthrough.
+# ─────────────────────────────────────────────────────────
+backend:
+  name: github
+  repo: REPLACE-WITH-your-username/your-repo-name
+  branch: main
+  base_url: https://api.decapbridge.com
+  auth_endpoint: api/v1/auth/decap
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "content"
+    label: "Page Content"
+    files:
+      - name: "landing"
+        label: "Landing Page"
+        file: "content/data.json"
+        fields:
+          - label: "Nav"
+            name: "nav"
+            widget: "object"
+            fields:
+              - { label: "Logo Text", name: "logo_text", widget: "string" }
+              - { label: "Button Text", name: "cta_text", widget: "string" }
+              - { label: "Button Link", name: "cta_link", widget: "string" }
+
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow Tag", name: "tag_text", widget: "string" }
+              - { label: "Eyebrow Line", name: "eyebrow_text", widget: "string" }
+              - { label: "Headline (before highlight)", name: "headline_prefix", widget: "string" }
+              - { label: "Headline Highlight (red)", name: "headline_highlight", widget: "string" }
+              - { label: "Subheadline", name: "subheadline", widget: "string" }
+              - { label: "Body Copy (HTML allowed)", name: "body_html", widget: "text" }
+              - label: "Bullet Points"
+                name: "bullets"
+                widget: "list"
+                fields:
+                  - { label: "Bullet Text", name: "bullet_text", widget: "string" }
+              - { label: "CTA Button Text", name: "cta_text", widget: "string" }
+              - { label: "CTA Button Link", name: "cta_link", widget: "string" }
+              - { label: "Note Under CTA", name: "note_text", widget: "string" }
+              - { label: "Phone: Missed Call Badge Number", name: "phone_missed_count", widget: "string" }
+              - { label: "Phone: Lock Screen Time", name: "phone_time", widget: "string" }
+              - { label: "Phone: Lock Screen Date", name: "phone_date", widget: "string" }
+              - { label: "Phone: Notification 1 Title", name: "phone_notif1_title", widget: "string" }
+              - { label: "Phone: Notification 1 Body", name: "phone_notif1_body", widget: "string" }
+              - { label: "Phone: Notification 2 Title", name: "phone_notif2_title", widget: "string" }
+              - { label: "Phone: Notification 2 Body", name: "phone_notif2_body", widget: "string" }
+              - { label: "Phone: Voicemail Quote", name: "phone_notif3_quote", widget: "string" }
+              - { label: "Phone: Voicemail Footer", name: "phone_notif3_footer", widget: "string" }
+
+          - label: "Trust Bar"
+            name: "trust_bar"
+            widget: "object"
+            fields:
+              - label: "Stats"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - { label: "Number", name: "number", widget: "string" }
+                  - { label: "Label", name: "label", widget: "string" }
+
+          - label: "Pain Section"
+            name: "pain_section"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow Tag", name: "tag_text", widget: "string" }
+              - { label: "Heading (HTML allowed)", name: "heading_html", widget: "string" }
+              - { label: "Description", name: "description_text", widget: "text" }
+              - { label: "Left Column Heading", name: "bad_heading", widget: "string" }
+              - label: "Left Column Items"
+                name: "bad_items"
+                widget: "list"
+                fields:
+                  - { label: "Icon (emoji)", name: "icon", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Body", name: "body", widget: "text" }
+              - { label: "Right Column Heading", name: "good_heading", widget: "string" }
+              - label: "Right Column Items"
+                name: "good_items"
+                widget: "list"
+                fields:
+                  - { label: "Icon (emoji)", name: "icon", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Body", name: "body", widget: "text" }
+
+          - label: "How It Works"
+            name: "how_it_works"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow Tag", name: "tag_text", widget: "string" }
+              - { label: "Heading (HTML allowed)", name: "heading_html", widget: "string" }
+              - { label: "Description", name: "description_text", widget: "text" }
+              - label: "Steps"
+                name: "steps"
+                widget: "list"
+                fields:
+                  - { label: "Step Number", name: "step_number", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Body", name: "body", widget: "text" }
+
+          - label: "Who It's For"
+            name: "who_its_for"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow Tag", name: "tag_text", widget: "string" }
+              - { label: "Heading (HTML allowed)", name: "heading_html", widget: "string" }
+              - label: "Cards"
+                name: "cards"
+                widget: "list"
+                fields:
+                  - { label: "Icon (emoji)", name: "icon", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Role Label", name: "role", widget: "string" }
+                  - { label: "Body", name: "body", widget: "text" }
+                  - { label: "Stat Number", name: "stat_number", widget: "string" }
+                  - { label: "Stat Label", name: "stat_label", widget: "string" }
+
+          - label: "Book Demo"
+            name: "book_demo"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow Tag", name: "tag_text", widget: "string" }
+              - { label: "Heading (HTML allowed)", name: "heading_html", widget: "string" }
+              - { label: "Description", name: "description_text", widget: "text" }
+              - label: "Reassurance Strip Items"
+                name: "reassurance_items"
+                widget: "list"
+                fields:
+                  - { label: "Value", name: "value", widget: "string" }
+                  - { label: "Label", name: "label", widget: "string" }
+              - { label: "Calendly Embed URL", name: "calendly_url", widget: "string" }
+              - { label: "Note Below Calendar", name: "footer_note_text", widget: "string" }
+
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow Tag", name: "tag_text", widget: "string" }
+              - { label: "Heading (HTML allowed)", name: "heading_html", widget: "string" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Star Rating", name: "rating", widget: "number", value_type: "int", min: 1, max: 5, default: 5 }
+                  - { label: "Quote", name: "quote", widget: "text" }
+                  - { label: "Avatar Initials", name: "initials", widget: "string" }
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Role / Location", name: "role", widget: "string" }
+
+          - label: "FAQ"
+            name: "faq"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow Tag", name: "tag_text", widget: "string" }
+              - { label: "Heading (HTML allowed)", name: "heading_html", widget: "string" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Question", name: "question", widget: "string" }
+                  - { label: "Answer", name: "answer", widget: "text" }
+
+          - label: "Final CTA"
+            name: "final_cta"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow Tag", name: "tag_text", widget: "string" }
+              - { label: "Heading (HTML allowed)", name: "heading_html", widget: "string" }
+              - { label: "Description", name: "description_text", widget: "text" }
+              - { label: "Button Text", name: "cta_text", widget: "string" }
+              - { label: "Button Link", name: "cta_link", widget: "string" }
+              - { label: "Note Below Button", name: "note_text", widget: "string" }
+
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Logo Text", name: "logo_text", widget: "string" }
+              - { label: "Copyright Text", name: "copyright_text", widget: "string" }
